@@ -1,0 +1,35 @@
+.gift__consultation {
+  all: unset;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #E4E5EA;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  background: #4077F3;
+  cursor: pointer;
+  padding: 21px 34px;
+  margin-top: 60px;
+  transition: 0.3s;
+}
+
+.gift__consultation:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.gift__consultation:focus {
+  outline: #fff 1px auto;
+}
+
+@media (max-width: 780px) {
+  .gift__consultation {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .gift__consultation {
+    display: none;
+  }
+}

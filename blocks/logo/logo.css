@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (max-width: 550px) {
+  .logo {
+    display: none;
+  }
+}

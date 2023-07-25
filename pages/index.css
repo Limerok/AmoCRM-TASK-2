@@ -1,0 +1,62 @@
+@import url(../vendor/fonts.css);
+
+
+/* font-family: 'Inter', 'Arial', sans-serif; */
+
+@import url(../blocks/pages/pages.css);
+@import url(../blocks/pages/__header/pages__header.css);
+@import url(../blocks/pages/__content/pages__content.css);
+@import url(../blocks/pages/__footer/pages__footer.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__description/logo__description.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__mobil-disabled/menu__mobil-disabled.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__link-image/social__link-image.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__title/content__title.css);
+@import url(../blocks/content/__title-accent/content__title-accent.css);
+@import url(../blocks/content/__description/content__description.css);
+
+@import url(../blocks/gift/gift.css);
+@import url(../blocks/gift/__description/gift__description.css);
+@import url(../blocks/gift/__description-accent/gift__description-accent.css);
+@import url(../blocks/gift/__items/gift__items.css);
+@import url(../blocks/gift/__items-mobil/gift__items-mobil.css);
+@import url(../blocks/gift/__item-mobil/gift__item-mobil.css);
+@import url(../blocks/gift/__item-title/gift__item-title.css);
+@import url(../blocks/gift/__item-description/gift__item-description.css);
+@import url(../blocks/gift/__consultation/gift__consultation.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__about-links/footer__about-links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-links/footer__menu-links.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link-image/footer__social-link-image.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-policy/footer__copyright-policy.css);

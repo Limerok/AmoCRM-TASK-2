@@ -1,0 +1,9 @@
+.header__contacts {
+  margin-top: 14px;
+}
+
+@media (max-width: 1050px) {
+  .header__contacts {
+    margin-top: 0;
+  }
+}

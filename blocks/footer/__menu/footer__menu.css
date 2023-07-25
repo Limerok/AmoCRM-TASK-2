@@ -1,0 +1,21 @@
+.footer__menu {
+  margin-right: 66px;
+}
+
+@media (max-width: 1200px) {
+  .footer__menu {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer__menu {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer__menu {
+    min-width: auto;
+  }
+}

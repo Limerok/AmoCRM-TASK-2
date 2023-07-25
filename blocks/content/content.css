@@ -1,0 +1,40 @@
+.content {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 69px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    padding: 0 30px 69px;
+  }
+}
+
+@media (max-width: 780px) {
+  .content {
+    flex-direction: column;
+    padding: 0 20px 69px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    padding: 41px 14px 69px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    background-image: url(../../images/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    background-size: contain;
+  }
+}

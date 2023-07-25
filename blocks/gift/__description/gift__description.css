@@ -1,0 +1,25 @@
+.gift__description {
+  margin: 0;
+  padding: 18px 0 42px 0;
+  color: #E4E5EA;
+  text-align: right;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 291px;
+}
+
+@media (max-width: 780px) {
+  .gift__description {
+    max-width: 100%;
+    padding: 18px 0 25px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .gift__description {
+    text-align: left;
+    padding: 18px 0 21px 0;
+  }
+}

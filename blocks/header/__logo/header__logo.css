@@ -1,0 +1,15 @@
+.header__logo {
+  margin-top: 11px;
+}
+
+@media (max-width: 1050px) {
+  .header__logo {
+    margin-top: -45px;
+  }
+}
+
+@media (max-width: 780px) {
+  .header__logo {
+    margin-top: 0;
+  }
+}

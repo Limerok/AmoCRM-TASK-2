@@ -1,0 +1,18 @@
+.content__title-accent {
+  display: block;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(45deg, #FCB045 21%, #FF3F78 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #E4E5EA;
+}
+
+@media (max-width: 550px) {
+  .content__title-accent {
+    font-size: 36px;
+  }
+}

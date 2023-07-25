@@ -1,0 +1,23 @@
+.gift__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  column-gap: 24px;
+  row-gap: 31px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+@media (max-width: 780px) {
+  .gift__items {
+    max-width: 63%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 550px) {
+  .gift__items {
+    display: none;
+  }
+}

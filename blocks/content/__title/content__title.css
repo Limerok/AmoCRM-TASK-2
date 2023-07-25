@@ -1,0 +1,23 @@
+.content__title {
+  margin: 0;
+  padding: 0 0 11px 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #E4E5EA;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 362px;
+}
+
+@media (max-width: 780px) {
+  .content__title {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .content__title {
+    font-size: 36px;
+    padding: 0 0 15px 0;
+  }
+}

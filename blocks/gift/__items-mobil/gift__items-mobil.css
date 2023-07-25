@@ -1,0 +1,15 @@
+.gift__items-mobil {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 14px;
+}
+
+@media (min-width: 551px) {
+  .gift__items-mobil {
+    display: none;
+  }
+}

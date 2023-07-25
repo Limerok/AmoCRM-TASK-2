@@ -1,0 +1,17 @@
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  gap: 45px;
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .contacts {
+    display: none;
+  }
+}

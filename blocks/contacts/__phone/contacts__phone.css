@@ -1,0 +1,16 @@
+.contacts__phone {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #E4E5EA;
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+
+.contacts__phone:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}

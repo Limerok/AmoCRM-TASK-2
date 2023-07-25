@@ -1,0 +1,22 @@
+.pages {
+  background-image: url(../../images/background.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  background-color: #0E1014;
+  margin: 0;
+}
+
+@media (max-width: 1050px) {
+  .pages {
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 550px) {
+  .pages {
+    background-image: none;
+    margin-top: 54px;
+  }
+}

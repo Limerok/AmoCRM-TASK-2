@@ -1,0 +1,22 @@
+.gift__item-mobil {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: #E4E5EA;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 114px;
+  padding-left: 2px;
+}
+
+.gift__item-mobil::before {
+  content: ' ';
+  display: block;
+  width: 10px;
+  height: 1px;
+  background-image: url(../../../images/li-line.svg);
+}

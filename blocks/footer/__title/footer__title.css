@@ -1,0 +1,19 @@
+.footer__title {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #656566;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+  .footer__title {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin: 0 0 19px 0;
+  }
+}

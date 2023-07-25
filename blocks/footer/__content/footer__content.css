@@ -1,0 +1,17 @@
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .footer__content {
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__content {
+    flex-wrap: wrap;
+  }
+}

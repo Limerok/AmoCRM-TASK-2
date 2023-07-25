@@ -1,0 +1,18 @@
+.content__description {
+  margin: 0;
+  padding: 18px 0 0 0;
+  max-width: 275px;
+  color: #E4E5EA;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 780px) {
+  .content__description {
+    padding: 0;
+    max-width: 100%;
+  }
+}

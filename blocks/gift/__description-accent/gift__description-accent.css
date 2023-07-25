@@ -1,0 +1,23 @@
+.gift__description-accent {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #E4E5EA;
+}
+
+@media (max-width: 550px) {
+  .gift__description-accent {
+    background: linear-gradient(11deg, #FCB045 65.99%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: lowercase;
+    letter-spacing: 0px;
+  }
+}

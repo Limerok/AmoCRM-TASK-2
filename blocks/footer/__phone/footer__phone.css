@@ -1,0 +1,20 @@
+.footer__phone {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #E4E5EA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: 0.2s ease;
+}
+
+.footer__phone:hover {
+  color: #fff;
+}
+
+@media (max-width: 550px) {
+  .footer__phone {
+    margin-bottom: 6px;
+  }
+}
