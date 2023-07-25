@@ -5,15 +5,15 @@
 
 
 ### Используемые технологии при разработке: 
-Html5 (header, main, footer, nav, section , h1-h6, flex, grid)
-Семантическая вёрстка
-Css (реализованно состояние :hover для элементов, используются media)
-БЭМ - методология (файловая система и классы)
-Сжатие изображений (FileOptimizer)
-Validation Service (W3.org)
-Система контроля версий Git
-Удаленный репозиторий Git-Hub
-консоль Git-Bash
+*Html5 (header, main, footer, nav, section , h1-h6, flex, grid)
+*Семантическая вёрстка
+*Css (реализованно состояние :hover для элементов, используются media)
+*БЭМ - методология (файловая система и классы)
+*Сжатие изображений (FileOptimizer)
+*Validation Service (W3.org)
+*Система контроля версий Git
+*Удаленный репозиторий Git-Hub
+*Консоль Git-Bash
 
 
 * [Ссылка на проект Git-Hub Pages](https://limerok.github.io/AmoCRM-TASK-2/)
